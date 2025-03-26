@@ -6,7 +6,7 @@
 /*   By: zel-ghab <zel-ghab@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/22 18:25:18 by zel-ghab          #+#    #+#             */
-/*   Updated: 2024/07/24 20:33:40 by zel-ghab         ###   ########.fr       */
+/*   Updated: 2025/02/24 17:54:35 by zel-ghab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,7 +92,7 @@ int main()
 	char *strs[4];
 	strs[0] = "Zaki";
 	strs[1] = "Chan";
-	strs[2] = "";
+	strs[2] = NULL;
 	strs[3] = "ELFAMOSO";
 	char *sep = "-";
 	char *tab = ft_strjoin(4, strs, sep);
